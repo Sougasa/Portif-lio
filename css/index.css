@@ -1,0 +1,147 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #f5f5f5;
+    line-height: 1.6;
+}
+
+/* Container geral */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+}
+
+nav ul li a,
+nav ul li c {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #66ccff;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.center img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #66ccff;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.soft {
+    color: #ffcc00;
+}
+
+/* Main sections */
+main section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+footer a img {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 5px;
+}
+
+footer p span.github {
+    color: #cfcfcf;
+}
+
+footer p span.discord {
+    color: #7289da;
+}
+
+footer p span.youtube {
+    color: #ff0000;
+}
+
+/* Campo de busca */
+input#nomeBusca {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 10px;
+    width: 200px;
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #66ccff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #33bbff;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden; /* Esconde scroll vertical e horizontal */
+  margin: 0;
+  padding: 0;
+}
